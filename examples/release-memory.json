@@ -1,0 +1,9 @@
+{
+  "kind": "procedural",
+  "title": "Reviewed release procedure",
+  "content": "Run a canary deployment first, observe error rate for 30 minutes, then request peer review before full rollout.",
+  "topic": "release",
+  "source": "sample:atlas/reviewed-runbook#2",
+  "visibility": "team",
+  "entities": ["Atlas"]
+}

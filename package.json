@@ -1,0 +1,13 @@
+{
+  "name": "relay-graph-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible local build of Relay's official FalkorDB Canvas web component",
+  "scripts": {
+    "build": "node scripts/build-canvas.mjs"
+  },
+  "devDependencies": {
+    "@falkordb/canvas": "0.3.3",
+    "esbuild": "0.28.2"
+  }
+}
